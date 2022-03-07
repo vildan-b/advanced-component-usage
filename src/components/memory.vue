@@ -4,11 +4,14 @@
 <div  class="test"><slot name="heading"></slot></div>
 
 <div  class="test"><slot name="content"></slot></div>
+<div class="test"> <slot name="author"> No content came here</slot> </div>
 
 </div></template>
 
 
 <script>
+
+
 export default{
 
 }
